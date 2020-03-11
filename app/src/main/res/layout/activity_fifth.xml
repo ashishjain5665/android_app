@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.project.Fifth">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WHAT IS THE CORRECT WAY TO DEFINE AN INTEGER IN PYTHON"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="int x:"
+        android:id="@+id/checkBox17"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="int 5x"
+        android:id="@+id/checkBox18"
+        android:checked="false"
+        android:layout_below="@+id/checkBox17"
+        android:layout_alignLeft="@+id/checkBox17"
+        android:layout_alignStart="@+id/checkBox17"
+        android:layout_marginTop="25dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="int x=10;"
+        android:id="@+id/checkBox19"
+        android:checked="false"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/checkBox18"
+        android:layout_alignStart="@+id/checkBox18" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x=10"
+        android:id="@+id/checkBox20"
+        android:layout_marginTop="34dp"
+        android:checked="false"
+        android:layout_below="@+id/checkBox19"
+        android:layout_alignLeft="@+id/checkBox19"
+        android:layout_alignStart="@+id/checkBox19" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/button31"
+        android:layout_below="@+id/checkBox20"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+</RelativeLayout>
