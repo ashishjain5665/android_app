@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.hp.project.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.hp.project.On" />
+        <activity android:name="com.example.hp.project.Sign" />
+        <activity android:name="com.example.hp.project.MediaP" />
+        <activity android:name="com.example.hp.project.Camera" />
+        <activity android:name="com.example.hp.project.Cal" />
+        <activity android:name="com.example.hp.project.Sp" />
+        <activity android:name="com.example.hp.project.Magicmp" />
+        <activity android:name="com.example.hp.project.Quiz" />
+        <activity android:name="com.example.hp.project.Second" />
+        <activity android:name="com.example.hp.project.Third" />
+        <activity android:name="com.example.hp.project.Fourth" />
+        <activity android:name="com.example.hp.project.Fifth" />
+        <activity android:name="com.example.hp.project.Result" />
+        <activity android:name="com.example.hp.project.Netcap" />
+        <activity android:name="com.example.hp.project.Facebook" />
+        <activity android:name="com.example.hp.project.Twitter" />
+    </application>
+
+</manifest>
